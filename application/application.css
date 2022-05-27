@@ -1,0 +1,201 @@
+#Title{
+    -fx-font-size: 70px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+.buttonStyle1{
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(#ebc634, #8a731c);
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+}
+.buttonStyle2{
+    -fx-font-size: 20px;
+    -fx-background-color: linear-gradient(#ebc634, #8a731c);
+    -fx-text-fill: white;
+}
+
+.buttonStyle1:armed{
+    -fx-background-color: linear-gradient(#ebc634, #4a3d0c);
+    -fx-text-fill: white;
+}
+.buttonStyle2:armed{
+    -fx-background-color: linear-gradient(#ebc634, #4a3d0c);
+    -fx-text-fill: white;
+}
+.buttonSizeL{
+    -fx-min-width: 300px;
+    -fx-min-height: 40px;
+    -fx-max-width: 300px;
+    -fx-max-height: 80px;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 60px;
+}
+
+.buttonSizeS {
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-max-width: 100px;
+    -fx-max-height: 70px;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 50px;
+}
+
+.buttonSizeSquareS {
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 65px;
+    -fx-max-height: 65px;
+    -fx-pref-width: 45px;
+    -fx-pref-height: 45px;
+    -fx-background-radius: 0;
+}
+
+#LabelL{
+    -fx-font-size: 35px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+
+#LabelM{
+    -fx-font-size: 30px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+
+#Center {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+#Bottom {
+    -fx-alignment: center;
+    -fx-spacing: 550;
+}
+#Right {
+    -fx-alignment: center;
+}
+#Background {
+    -fx-background-color: linear-gradient(#505050, #181818);
+}
+
+.bigLabel {
+    -fx-font-size: 50px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+.littleLabel {
+    -fx-font-size: 30px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+
+.littlerLabel {
+    -fx-font-size: 20px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill:  #ebc634
+}
+
+.slider .axis {
+    -fx-tick-label-fill: gold;
+}
+
+.textField1 {
+    -fx-min-width: 300px;
+    -fx-min-height: 20px;
+    -fx-max-width: 350px;
+    -fx-max-height: 30px;
+    -fx-pref-width: 325px;
+    -fx-pref-height: 25px;
+
+    -fx-background-color: wheat;
+    -fx-border-color: yellow;
+
+    -fx-font-size: 12px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-fill: #000000;
+}
+
+.GameTopBottomPane {
+    -fx-alignment: center;
+    -fx-min-height: 55px;
+    -fx-max-height: 55px;
+    -fx-pref-width: 600px;
+    -fx-border-color: #000000;
+}
+
+.GameLeftRightPane {
+    -fx-min-height: 305px;
+    -fx-pref-width: 100px;
+    -fx-border-color: #000000;
+}
+
+.GameCenterPane {
+    -fx-pref-height: 300px;
+    -fx-pref-width: 300px;
+    -fx-border-color: #000000;
+}
+
+.Status {
+    -fx-alignment: center;
+    -fx-font-size: 30px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-color: #ebc634;
+    -fx-text-fill:  #ebc634;
+}
+
+.GamePlayerPane {
+    -fx-min-height: 50px;
+    -fx-max-height: 50px;
+    -fx-spacing: 20;
+}
+
+.GamePiecesPane {
+    -fx-min-height: 375px;
+    -fx-max-height: 375px;
+}
+
+.GameButtonPane {
+    -fx-pref-height: 55px;
+}
+
+.GameButtonList {
+    -fx-alignment: center;
+    -fx-spacing: 30px;
+}
+
+.BoardText {
+    -fx-font-size: 15px;
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-text-color: #ebc634;
+    -fx-text-fill: #ebc634;
+}
+
+.BlackChessTile {
+    -fx-min-width: 25px;
+    -fx-min-height:25px;
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+    -fx-background-color: #273746;
+}
+
+.BlackChessTile:armed {
+    -fx-background-color: #10212b;
+}
+
+.WhiteChessTile {
+    -fx-min-width: 25px;
+    -fx-min-height:25px;
+    -fx-max-width: 100px;
+    -fx-max-height: 100px;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+    -fx-background-color: #f5deb3;
+}
+
+.WhiteChessTile:armed {
+    -fx-background-color: #d7bc88;
+}
